@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stil.css">
+      
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+    <title>Dubinsko Čišćenje New</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <meta name="description" content="Profesionalno dubinsko čišćenje u Splitu, Trogiru, Kaštelima i Solinu. Ponosni smo na kvalitetu i pouzdanost naših usluga.">
+
+    <!-- Lightbox2 CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+<!-- jQuery (potreban za lightbox2) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Lightbox2 JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a class="nav__logo">
+                    <img src="logo.png">
+                </a>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link">Početna</a></li>
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                    <li><a href="#services" class="nav__link">Usluge čišćenja</a></li>
+                    </li>
+                    <li><a href="#galerija" class="nav__link">Fotogalerija</a></li>
+                    <li><a href="#about-us" class="nav__link">O nama</a></li> <!-- Dodan ID kao href -->
+                    <li><a href="#footer" class="nav__link">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--=============== ANIMATED TEXT ===============-->
+    <div class="wrapper">
+        <div class="animated-text">
+            Dubinsko čišćenje <span></span>
+        </div>
+        <button class="glow-button" onclick="scrollToServices()">Pogledajte usluge</button>
+
+    </div>
+    <h2 class="section-title">Usluge koje nudimo</h2>
+
+<!--=============== GLOWING BOXES ===============-->
+<div id="services" class="container">
+    <div class="box">
+        <div class="glass"></div>
+        <div class="content">
+            <h2>Dubinsko Čišćenje Namještaja</h2>
+            <p>Vraćamo sjaj, uklanjamo mrlje i osvježava boju, dok eliminira neugodne mirise i osigurava sigurnost za sve tkanine.</p>
+            <img src="cek.png" alt="Opis GIF-a" class="service-gif">
+            <button class="request-button" onclick="window.location.href='https://wa.me/38763620808';">Zatraži uslugu</button>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="glass"></div>
+        <div class="content">
+            <h2>Dubinsko Čišćenje Automobila</h2>
+            <p>Vraćamo vašem vozilu sjaj, uklanjamo mrlje i neugodne mirise te osiguravamo besprijekornu čistoću unutrašnjosti.</p>
+            <img src="cek.png" alt="Opis GIF-a" class="service-gif">
+            <button class="request-button" onclick="window.location.href='https://wa.me/38763620808';">Zatraži uslugu</button>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="glass"></div>
+        <div class="content">
+            <h2>Strojno Čišćenje Podova</h2>
+            <p>Uklanjamo duboku prljavštinu i mrlje, vraćamo sjaj i ostavljamo površine besprijekorno čistim i svježima.</p>
+            <img src="cek.png" alt="Opis GIF-a" class="service-gif">
+            <button class="request-button" onclick="window.location.href='https://wa.me/38763620808';">Zatraži uslugu</button>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="glass"></div>
+        <div class="content">
+            <h2>Dubinsko i Generalno Čišćenje Brodova</h2>
+            <p>Naše čišćenje brodova uklanja prljavštinu, mrlje i neugodnosti, vraća sjaj i osigurava da vaš brod bude besprijekorno čist i spreman za plovidbu.</p>
+            <img src="cek.png" alt="Opis GIF-a" class="service-gif">
+            <button class="request-button" onclick="window.location.href='https://wa.me/38763620808';">Zatraži uslugu</button>
+        </div>
+    </div>
+</div>
+
+  
+
+</section>
+<section id="galerija" class="gallery">
+    <h2 class="section-title">Naši Radovi</h2>
+    <div class="gallery__images">
+      <a href="slika1.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"><img src="slika1.jpg" alt="Prije čišćenja" class="gallery__img"></a>
+      <a href="slika2.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"><img src="slika2.jpg" alt="Poslije čišćenja" class="gallery__img"></a>
+      <a href="slika3.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"><img src="slika3.jpg" alt="Prije čišćenja" class="gallery__img"></a>
+      <a href="slika4.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"><img src="slika4.jpg" alt="Poslije čišćenja" class="gallery__img"></a>
+    </div>
+    <button class="gallery__button" onclick="openGallery()">Pogledajte cijelu galeriju</button>
+    <div class="gallery__hidden">
+      <a href="slika9.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"></a>
+      <a href="slika10.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"></a>
+      <a href="slika11.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"></a>
+      <a href="slika12.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"></a>
+      <a href="slika13.jpg" data-lightbox="gallery" data-title="Dubinsko Čišćenje NEW"></a>
+      <!-- Dodajte koliko god slika želite, ali ih stavite u skriveni div -->
+    </div>
+  </section>
+<!--=============== ABOUT US ===============-->
+<!--=============== ABOUT US ===============-->
+<section id="about-us" class="about-us">
+    <div class="about-us__content">
+      <h2 class="section-title"><span class="underline">O Nama</span></h2>
+      <div class="about-us__text">
+        <p><span class="underline"></span>Dobrodošli u naš svijet besprijekorne čistoće! Naša misija je jednostavna - pretvoriti svaki kutak vašeg prostora u svetište čistoće i svježine. Mi smo tim posvećenih profesionalaca koji vjeruju da svaki dom i radni prostor zaslužuje najbolje.</p>
+        <p>Sa strašću prema detaljima i neusporedivom pažnjom prema kvaliteti, naš tim koristi najsuvremeniju opremu i ekološki prihvatljive proizvode kako bismo osigurali da vaš prostor ne bude samo čist, već i zdrav. Vjerujemo u održivost i brigu o okolišu, stoga su svi naši proizvodi sigurni za vas i vašu obitelj.</p>
+        <p>Kroz godine rada, izgradili smo reputaciju temeljeći se na povjerenju i zadovoljstvu naših klijenata. Naše usluge nisu samo posao za nas - one su naša strast. Svaki projekt je prilika da pokažemo našu stručnost i predanost. Vaše zadovoljstvo nam je najveća nagrada.</p>
+        <p>Prepustite nam brigu o vašem prostoru i osjetite razliku koju donosi profesionalno dubinsko čišćenje. S nama, čistoća nije samo obećanje, već garancija.</span></p>
+      </div>
+      <div class="about-us__video-container">
+        <div class="about-us__video-overlay">
+          <video src="vid.mp4" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+<!--=============== WHY CHOOSE US ===============-->
+<section class="why-choose-us">
+    <h2 class="section-title">Zašto Odabrati Nas?</h2>
+    <div class="reasons">
+        <div class="reason">
+            <i class="ri-star-fill"></i>
+            <h3>Visoka Kvaliteta</h3>
+            <p>Koristimo samo najbolje proizvode i opremu za dubinsko čišćenje.</p>
+        </div>
+        <div class="reason">
+            <i class="ri-secure-payment-line"></i>
+            <h3>Pouzdani Uslužitelji</h3>
+            <p>Svi naši radnici su profesionalni i pouzdani.</p>
+        </div>
+        <div class="reason">
+            <i class="ri-leaf-line"></i>
+            <h3>Ekološki Pristup</h3>
+            <p>Koristimo ekološke proizvode koji su sigurni za vas i okoliš.</p>
+        </div>
+    </div>
+</section>
+
+<!--=============== TESTIMONIALS ===============-->
+<section class="testimonials">
+    <h2 class="section-title">Što Naši Klijenti Kažu</h2>
+    <div class="testimonial">
+        <div class="testimonial__image">
+            <img src="marko.jpeg" alt="Marko" />
+        </div>
+        <div class="testimonial__text">
+            <p>"Fantastična usluga! Namještaj mi izgleda kao nov!"</p>
+            <p class="testimonial__name">- Marko</p>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="testimonial__image">
+            <img src="ana.jpeg" alt="Ana" />
+        </div>
+        <div class="testimonial__text">
+            <p>"Brza i pouzdana usluga. Preporučujem svima!"</p>
+            <p class="testimonial__name">- Ana</p>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="testimonial__image">
+            <img src="Ivan.jpeg" alt="Ivan" />
+        </div>
+        <div class="testimonial__text">
+            <p>"Najbolje čišćenje automobila koje sam ikad imao."</p>
+            <p class="testimonial__name">- Ivan</p>
+        </div>
+    </div>
+</section>
+
+<!--=============== CONTACT FORM ===============-->
+<section class="contact">
+    <h2 class="section-title">Kontaktirajte Nas</h2>
+    <form id="contactForm" action="https://formsubmit.co/dubinskociscenje@net.hr" method="POST" class="contact__form">
+      <input type="text" name="name" placeholder="Vaše ime" required>
+      <input type="email" name="email" placeholder="Vaš email" required>
+      <textarea name="message" rows="5" placeholder="Vaša poruka..." required></textarea>
+      <button type="submit" class="contact__button">Pošaljite Poruku</button>
+    </form>
+</section>
+
+<!--=============== FOOTER =============-->
+<footer id="footer" class="footer">
+  <div class="footer__container container">
+    <h2 class="section-title">Pratite nas</h2>
+    <div class="social__links">
+      <a href="https://www.facebook.com/people/Dubinsko-%C4%8Ci%C5%A1%C4%87enje-New/61551803098131/" class="social__link" target="_blank">
+        <i class="ri-facebook-fill"></i>
+      </a>
+      <a href="https://www.instagram.com/dubinsko.ciscenje.new" class="social__link" target="_blank">
+        <i class="ri-instagram-fill"></i>
+      </a>
+      <div class="phone__container">
+        <span class="phone__number">091-603/7504</span>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2022 Dubinsko Čišćenje NEW. Sva prava pridržana.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
